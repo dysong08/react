@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  font-family: 'omyu_pretty';
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.App-all {
+  width: 320px;
+  height: 500px;
+  border: 1px solid #e1e1d1;
+  background: linear-gradient(to right, #b3a037, #f3e99d);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px 10px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.App-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-1 {
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  background-color: #f3e99d;
+  margin-right: 3px;
+}
+
+.header-2 {
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  background-color: #6382a1;
+  border-color: black;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-title {
+  width: 258px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 25px 0 25px;
+  padding-left: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.App-search {
+  height: 54px;
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 135px;
+  padding-left: 10px;
+  font-size: 15px;
+  height: 30px;
+}
+
+.search-btn {
+  width: 40px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: #c8e5ff;
+}
+
+.search-2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 85px;
+  padding-left: 10px;
+  height: 30px;
+}
+
+.content-area {
+  margin: 10px;
+  height: 200px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+
+}
+
+.App-contents {
+  width: 255px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+  /* position: absolute; */
+  /* z-index: 1; */
+}
+
+.App-contents:hover {
+  box-shadow: 1px 1px 3px 1px grey;
+  background-color: rgb(225 244 247);
+  transform: scale(1.05);
+}
+
+
+.content-title {
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  margin: 0 10px;
+  align-items: center;
+  font-size: 17px;
+}
+
+.content-inner-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.content-inner-date {
+  min-width: 90px;
+}
+
+.change-text {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-1,
+.text-2 {
+  resize: none;
+  width: 240px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.text-1 {
+  height: 50px;
+}
+
+.text-2 {
+  height: 300px;
+}
+
+.App-writeBtn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.insert-writeBtn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.writeBtn {
+  border-radius: 5px;
+  width: 66px;
+  height: 30px;
+  background-color: #c8e5ff;
+  transition: transform 0.2s ease-in-out;
+  font-size: 17px;
+}
+
+.writeBtn:hover {
+  box-shadow: 1px 1px 3px 1px grey;
+  background-color: rgb(225 244 247);
+  transform: scale(1.05);
+}
+
+.yello {
+  background: linear-gradient(to right, #b3a037, #f3e99d);
+  border: 1px solid #e1e1d1;
+}
+
+.blue {
+  background: linear-gradient(to right, #393a3b, #6382a1);
+  border: 1px solid #e1e1d1;
+  color: white;
+
+}
+
+.appTitle {
+  color: black;
+}
+
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
